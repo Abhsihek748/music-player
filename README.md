@@ -1,2 +1,2 @@
 # music-player
-musix player web -player
+music player web -player
