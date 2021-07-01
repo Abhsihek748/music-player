@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="perfect-scrollbar.js"></script>
+    <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+    <link rel="stylesheet" type="text/html" href="perfect-scrollbar.css"> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="player.css">
+    <link rel="stylesheet" href="songDisplay.css">
+    <link rel="stylesheet"  href="all.css">
+    <title>Music</title>
+</head>
+<body>
+    <div class="container">
+        <div class="music-app">
+            <div class="menu-item">
+
+                <div class="app-icon">
+                    <div class="icon"><i class="fas fa-skull-cow fa-2x"></i></div>
+                </div>
+                <div class="menu-options">
+                    <div class="native-options">
+                    <div class="home option selected">
+                        <div class="option-icon home-icon"><i class="fal fa-home"></i></div>
+                        <div class="option-name home-name appear">Home</div>
+                    </div>
+                    <div class="search option">
+                        <div class="option-icon Search-icon"><i class="fal fa-search"></i></div>
+                        <div class="option-name Search-name appear">Search</div>
+                    </div>
+                    <div class="library option">
+                        <div class="option-icon library-icon"><i class="fal fa-list-music"></i></div>
+                        <div class="option-name library-name appear">Library</div>
+                    </div>
+                    </div>
+                    
+                    <div class="personilized-options">
+                        <div class="Create-playlist option">
+                            <div class="option-icon create-icon"><i class="fal fa-layer-plus"></i></div>
+                          <div class="option-name create-name appear">Create Playlist</div>
+                        </div>
+                        <div class="liked-song option ">
+                        <div class="option-icon like-icon"><i class="fal fa-heart"></i></div>
+                        <div class="option-name like-name appear">Liked Song</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="playlist">
+                </div>
+            </div>
+            <div class="song-display">
+                <!-- <div class="playList-display">
+              <div class="liked-song-box">
+                  <div>Liked Song</div>
+                  <div class="countSong">4 songs</div>
+                  <div class="play-button play"><i class="fad fa-play-circle"></i></div>
+              </div>
+              <div class="playList-box 1-playList"> <div>Liked Song</div>
+              <div class="countSong">4 songs</div>
+              <div class="play-button play"><i class="fad fa-play-circle"></i></div>
+            </div>
+              <div class="playList-box 1-playList"></div>
+              <div class="playList-box 1-playList"></div>
+              <div class="playList-box 1-playList"></div>
+              <div class="playList-box 1-playList"></div>
+              </div>
+            </div> -->
+        </div>
+        <!-- <div class="player">
+            <div class="details">
+                <div class="track-art"></div>
+                <div class="track-details">
+                    <div class="track-name">Track Name</div>
+                    <div class="track-artist">Track Artist</div>
+                </div>
+            </div>
+            <div class="song">
+                <div class="buttons">
+                    <div class="prev-track"><i class="fa fa-step-backward fa-1.5x"></i></div>
+                    <div class="toggle-play"><i class="fa fa-play-circle fa-2x"></i></div>
+                    <div class="next-track"><i class="fa fa-step-forward fa-1.5x"></i></div>
+                </div>
+                <div class="seek">
+                 <div class="song-seek">
+                     <div class="current-time"></div>
+                     <input type="range" min = "0" max = "100"
+                     value = "0" class="song-seek-slider">
+                     <div class="total-duration"></div>
+                 </div>    
+                </div>
+            </div>
+            <div class="volume">
+                <div class="seek">
+                    <div class="volume-seek">
+                        <div class="icon-volume"><i class="fa fa-volume-down"></i></div>
+                        <input type="range" min="0" max="100"
+                        value="80" class="volume-seek-slider">
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <script src="indexDb.js"></script>
+    <script src="player.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

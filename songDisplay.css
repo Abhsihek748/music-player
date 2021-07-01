@@ -1,0 +1,206 @@
+.song-display{
+    width: 87vw;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.display-details{
+    display: flex;
+    flex-direction: row;
+    height: 13rem;
+    width: 100%;
+    background-color: #457799;
+    padding: 1rem;
+}
+.image-container{
+    display: flex;
+    height: 100%;
+    width: 13rem;
+    border-radius: 5px;
+    background-color: black;
+}
+.details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    margin-left: 1.5vw;
+    height: 100%;
+    width: 100%;
+}
+.name-container{
+    font-size: 4rem;
+}
+.song-container{
+    display: flex;
+    height: 75%;
+    flex-direction: column;
+    padding:2vw;
+    background: rgb(19,18,20);
+    background: linear-gradient(0deg, rgb(0, 2, 5) 0%,rgb(26, 38, 48) 65%, rgb(30, 52, 66) 75%, rgb(51, 94, 124) 100%);
+}
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 10px;
+}
+.play-button{
+    display: flex;
+ color: white;
+ font-size: 50px;
+ margin-right: 40px;
+ border-radius: 50%;
+ box-shadow: 0 2px 4px  0 rgb(63, 62, 62) ;
+}
+.play-button:hover{
+    transform: scale(1.02);
+    transition: transform .1s;
+    cursor: pointer;
+}
+
+.song-list-container{
+    display: flex;
+    flex-direction: column;
+}
+.song-list,.song-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    opacity: .8;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.song-list{
+    border-radius: 5px;
+    font-size: .9em;
+    
+}
+.song-header{
+    border-bottom: 1px solid rgb(60, 69, 94) ;
+    margin-bottom: 5px;
+}
+.song-list-hover{
+    background-color: rgba(67,97,118,.2);
+    cursor: pointer;
+}
+.index,.index-song{
+   display: flex;
+   align-items: center;
+   width: 3%;
+}
+.song-image{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-position: center;
+
+} 
+.title{
+    display: flex;
+    align-items: center;
+    width: 43%;
+}
+#song-title{
+     /* color: #1fca67; */
+    font-size: 1.1em;
+}
+.artist-name{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+.like-song-button{
+    width: 5%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more-option-button{
+    width: 2%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+}
+.isLiked-song{
+    color: red;
+    opacity: 1;
+}
+.isPlaying{
+    color: #1fca67;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.search-box{
+    background-color: none;
+    z-index: 1;
+    margin: 5px;
+    height: 2.4rem;
+    width: 15rem;
+    border-radius: 5px;
+    border: none;
+    font-size: larger;
+}
+.fa-search{
+    z-index: 2;
+}
+
+.playList-display{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000%;
+    width: 100%;
+    
+    background:linear-gradient(0deg, rgb(19, 18, 20) 0%,rgb(32, 21, 39) 65%, rgb(46, 29, 56) 75%, rgb(104, 68, 128) 100%);
+    padding: 1.5rem;
+}
+
+.liked-song-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:2rem;
+    border-radius: 4px;
+    height: 13rem;
+    width: 18.5rem;
+    background-color: rgba(236, 142, 0,0.6);
+    margin: .5rem;
+}
+.liked-song-box:hover,.playList-box:hover{
+    cursor: pointer;
+}
+.playList-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:1.5rem;
+    border-radius: 4px;
+    height: 11rem;
+    width: 17rem;
+    margin: 1rem;
+    background-color: rgba(108, 93, 236, 0.6);
+}
+.countSong{
+    font-size: 70%;
+}

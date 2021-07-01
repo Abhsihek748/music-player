@@ -1,0 +1,141 @@
+.player{
+    height: 14vh;
+    min-height: 100px;
+    width: 100%;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: row;
+    padding: 17px;
+}
+.details{
+    display: flex;
+    width: 15vw;
+    min-width: 200px;
+}
+.song{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 70vw;
+    /* margin-right: 4vw; */
+}
+.volume{
+    display: flex;
+    width: 15vw;
+    min-width: 150px;
+}
+
+.track-art{
+    display: flex;
+    height: 70px;
+    width: 70px;
+    background-image: URL(
+     "https://source.unsplash.com/Qrspubmx6kE/640x360");
+     background-size: cover;
+     background-position: center;
+     border-radius: 7px;
+}
+.track-details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 13px;
+}
+.track-name,.track-artist{
+color: rgb(212, 216, 216);
+padding: 2px;
+font-size: .9rem;
+transition: font-size .2s;
+}
+.track-artist{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.track-name:hover,.track-artist:hover{
+    color: white;
+    font-size:.95rem;
+    cursor: pointer;
+}
+.buttons,.seek,.song-seek,.volume-seek{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(196, 197, 197);
+    font-size: .95rem;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.buttons{
+    margin-bottom: 10px;
+}
+.seek{
+    flex-direction: column;
+    width: 100%;
+}
+
+.prev-track,.next-track{
+    font-size: 1rem;
+    color: rgb(192, 194, 197);
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    opacity: .8;
+    transition: opacity .2s;
+}
+
+.toggle-play{
+    font-size: 1.1rem;
+    color: rgb(226, 226, 226);
+    margin-left: .5rem;
+    margin-right: .5rem;
+    opacity: .85;
+    transition: opacity .2s;
+}
+.prev-track:hover,.next-track:hover{
+    opacity: 1.0;
+    color: white;
+    cursor: pointer;
+}
+.toggle-play:hover{
+    opacity: 1.0;
+    font-size: 1.115rem;
+    color: white;
+    cursor: pointer;
+}  
+
+.song-seek-slider,.volume-seek-slider{
+    width: 35vw;
+    height: 4px;
+    opacity: .8;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+.volume-seek-slider{
+    width: 75%;
+}
+
+.song-seek-slider::-webkit-slider-thumb,
+.volume-seek-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: white;
+    cursor: pointer;
+  }
+  .current-time,
+.total-duration {
+  padding: 3px;
+}
+ 
+.icon-volume {
+    width: 16%;
+    font-size: 1rem;
+    opacity: .8;
+}
+
+.icon-volume:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+ 
