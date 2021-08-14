@@ -7,7 +7,7 @@ setTimeout(()=>{
       readPlayList();
       setTimeout(()=>{
         load_tracks = home_track_list;
-        track_list = home_track_list;
+        // track_list = home_track_list;
         loadDetails($(".home"));
         loadBox($(".home"));
         loadTracks($(".home"));
